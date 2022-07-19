@@ -1,0 +1,26 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+}
+.container{
+    
+   .formDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+    justify-self: center;
+    input{
+        width: 15rem;
+    }
+
+   }
+    // form{
+    //     display: flex;
+    //     width: 15rem;
+    //     justify-content: space-around;
+    // }
+}

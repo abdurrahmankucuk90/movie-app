@@ -1,0 +1,41 @@
+.detailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  gap: 0.5rem;
+  div {
+    width: 20rem;
+    background-color: lightblue;
+    padding: 2rem;
+    height: 32rem;
+    border-radius: 1rem;
+  }
+  .DContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    span {
+        color: rgb(192, 141, 151);
+        margin-left: .3rem;
+    }
+    h6 {
+      display: flex;
+      
+      flex-wrap: wrap;
+    }
+  }
+  .PContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    width: 20rem;
+  }
+}
